@@ -1,6 +1,6 @@
 body {
     background: black;
-    margin: 0px;
+    margin: 0 auto;
 }
 
 .box {
@@ -19,3 +19,26 @@ p {
     color: white;
     font-size: 20px;
 }
+
+.fancy {
+    width: 500px;
+    margin: 20px auto;
+    padding: 50px;
+    border: solid blue 10px;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+
+  h1 {
+      color: white;
+  }
+
+  .fixed {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+  }
